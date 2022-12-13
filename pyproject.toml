@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pypescript"
+version = "0.0.3-beta4"
+authors = [
+  { name="Nguyen Thanh Nghi", email="thanhnghic4@gmail.com" },
+]
+description = "todo later"
+readme = "README.md"
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/thanhnghic4/Pypescript/tree/master"
+"Bug Tracker" = "https://github.com/thanhnghic4/Pypescript/issues"

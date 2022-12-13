@@ -1,0 +1,28 @@
+
+name: CI
+
+
+on:
+  pull_request:
+    branches: [ "dev" ]
+
+  workflow_dispatch:
+
+
+jobs:
+  first-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: echo this is first action ,first line, pull request dev
+      - name: Run a multi-line script
+        run: |
+          echo this is first action ,second line
+  second-action:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run a one-line script
+        run: echo this is second action ,second line
+      - name: Run a multi-line script
+        run: |
+          echo this is second action ,second line
